@@ -1,6 +1,6 @@
 DEBUG = False
 MYSQL_DATABASE_USER='dbuser'
 MYSQL_DATABASE_PASSWORD='dbpasswd'
-MYSQL_DATABASE_DB='erogamescape_recommender_system'
+MYSQL_DATABASE_DB='erscape_recommender_system'
 GAME_URL = 'https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game='
 ADMIN_PASSWD = 'adminpasswd'

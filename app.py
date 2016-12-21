@@ -10,7 +10,7 @@ mysql.init_app(app)
 
 @app.route('/')
 def index():
-    return '<html>I am Erogamescape Recommender System</html>'
+    return '<html>I am Erscape Recommender System</html>'
 
 @app.route('/recommendation/personalized/<user_id>')
 def recommendation_personalized(user_id):
