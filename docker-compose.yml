@@ -1,0 +1,20 @@
+version: '3'
+services:
+  app:
+    build: .
+    environment:
+      RAILS_MYSQL_HOST: db
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    links:
+      - db
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+    volumes:
+      - ./dconf:/etc/mysql/conf.d
+    ports:
+      - "3306:3306"
