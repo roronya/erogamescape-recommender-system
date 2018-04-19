@@ -1,0 +1,22 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+subahibi:
+  name: "素晴らしき日々"
+  thumbnail: "https://pics.dmm.co.jp/digital/pcgame/mnphs_0001/mnphs_0001pl.jpg"
+  url: "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=12591#ad"
+  recommendations:
+    - recommendation_1
+    - recommendation_2
+
+romasaka:
+  name: "あかね色に染まる坂"
+  thumbnail: "https://pics.dmm.co.jp/digital/pcgame/feng_0002/feng_0002pl.jpg"
+  url: "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=8806#ad"
+  recommendations: []
+
+ritobasu:
+  name: "リトルバスターズ!エクスタシー"
+  thumbnail: "https://pics.dmm.co.jp/digital/pcgame/vsat_0161/vsat_0161pl.jpg"
+  url: "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=10488#ad"
+  recommendations:
+    - recommendation_3
