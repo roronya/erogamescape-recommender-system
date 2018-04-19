@@ -24,8 +24,11 @@ ActiveRecord::Schema.define(version: 20180418223408) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "game_id"
+    t.bigint "recommendation_id"
     t.index ["game_id"], name: "index_recommendations_on_game_id"
+    t.index ["recommendation_id"], name: "index_recommendations_on_recommendation_id"
   end
 
   add_foreign_key "recommendations", "games"
+  add_foreign_key "recommendations", "games", column: "recommendation_id"
 end
