@@ -6,10 +6,13 @@
 #
 
 recommendation_1:
-  recommendation: romasaka
+  game_id: subahibi
+  recommendation_id: romasaka
 
 recommendation_2:
-  recommendation: ritobasu
+  game_id: subahibi
+  recommendation_id: ritobasu
 
 recommendation_3:
-  recommendation: subahibi
+  game_id: romasaka
+  recommendation_id: subahibi
